@@ -9,17 +9,14 @@
 #	3 Linea 2
 #
 #	Last Modified
-#		2020-03-17
+#		2020-05-01
 #
 ###############################
 
 ## credenciales del bot
-#	El Archivo debe contener estas variables
-#
-#	APIKEY	del bot
-#	CHATID	del grupo o usuario
+APIKEY="API del bot"
+CHATID="del grupo o usuario"
 
-. /home/jfc/scripts/telegram_notification.config
 
 curl -s \
 --data parse_mode=HTML \
