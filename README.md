@@ -15,10 +15,7 @@ bash /home/jfc/scripts/telegram-message.sh "Borg Backup" "Repo: ${REPO}" "Starti
 
 # Before using
 
-Create the .config file and indicate it in the script telegram-message.sh (line 22), and fill it with two lines
+Edit telegram-message.sh and add telegram bot credentials:
 
 APIKEY	(BOT API Key)
-
 CHATID	(From Group or Chat)
-
-. /home/jfc/scripts/telegram_notification.config
